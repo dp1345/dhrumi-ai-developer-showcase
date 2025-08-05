@@ -16,18 +16,18 @@
     --popover: 222 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    /* Custom color palette */
-    --primary: 267 35% 52%; /* Purple Pain */
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 267 71% 84%; /* Medium Purple */
+    /* Updated color palette */
+    --primary: 189 88% 63%; /* Bright blue */
+    --primary-foreground: 222 84% 4.9%;
+    --primary-glow: 169 84% 79%; /* Blue Green */
 
-    --secondary: 237 37% 92%; /* Freeze Purple */
-    --secondary-foreground: 222 84% 4.9%;
+    --secondary: 217 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 237 37% 92%; /* Freeze Purple */
-    --muted-foreground: 349 14% 66%; /* Heavy Purple */
+    --muted: 217 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 199 60% 77%; /* Ice Cold */
+    --accent: 348 100% 84%; /* Pink Sand */
     --accent-foreground: 222 84% 4.9%;
 
     --destructive: 0 62.8% 30.6%;
