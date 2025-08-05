@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
-import { Scene3D } from "@/components/3d/Scene3D";
+
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -14,9 +14,6 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{ backgroundImage: 'url(/lovable-uploads/f2fdeab5-3114-4ff1-97b7-4b7856e79e13.png)' }}
       />
-      
-      {/* 3D Scene */}
-      <Scene3D />
       
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6 animate-fade-in">
