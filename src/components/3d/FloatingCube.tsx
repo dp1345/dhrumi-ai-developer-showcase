@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { Box } from '@react-three/drei';
 import * as THREE from 'three';
 
 export function FloatingCube({ position }: { position: [number, number, number] }) {
@@ -15,7 +14,8 @@ export function FloatingCube({ position }: { position: [number, number, number] 
   });
 
   return (
-    <Box ref={meshRef} position={position} args={[1, 1, 1]}>
+    <mesh ref={meshRef} position={position}>
+      <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial 
         color="#8B5CF6" 
         transparent 
@@ -23,6 +23,6 @@ export function FloatingCube({ position }: { position: [number, number, number] 
         emissive="#4C1D95"
         emissiveIntensity={0.2}
       />
-    </Box>
+    </mesh>
   );
 }

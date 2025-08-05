@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Environment } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import { FloatingCube } from './FloatingCube';
 
 export function Scene3D() {
@@ -15,7 +15,6 @@ export function Scene3D() {
         <FloatingCube position={[2, -3, -2]} />
         <FloatingCube position={[-2, 3, -2]} />
         
-        <Environment preset="night" />
         <OrbitControls 
           enableZoom={false} 
           enablePan={false} 
