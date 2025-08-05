@@ -11,7 +11,7 @@ export function About() {
       technologies: ["Python", "TensorFlow", "NLP", "Data Analysis"]
     },
     {
-      title: "Full Stack Development Intern", 
+      title: "Full Stack Development Intern",
       company: "InnovateLabs",
       duration: "Jan 2023 - May 2023",
       description: "Built responsive web applications using MERN stack, optimized database queries, and improved load times by 40%.",
@@ -28,45 +28,45 @@ export function About() {
           </h2>
           <div className="w-24 h-1 gradient-neural mx-auto rounded-full" />
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* About Text */}
           <div className="space-y-6">
             <Card className="bg-card/50 backdrop-blur-sm border-border/50 glow-primary">
               <CardContent className="p-8">
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  I'm a passionate AI Engineer and Web Developer with a strong foundation in computer engineering. 
-                  My journey combines the analytical power of artificial intelligence with the creative aspects of web development. 
-                  I specialize in building intelligent applications that solve real-world problems, from machine learning models 
+                  I'm a passionate AI Engineer and Web Developer with a strong foundation in computer engineering.
+                  My journey combines the analytical power of artificial intelligence with the creative aspects of web development.
+                  I specialize in building intelligent applications that solve real-world problems, from machine learning models
                   that predict user behavior to responsive web interfaces that provide seamless user experiences.
                 </p>
                 <br />
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  With expertise in Python, TensorFlow, PyTorch, and modern web technologies like React and Node.js, 
-                  I bridge the gap between complex AI algorithms and user-friendly applications. I'm constantly learning 
-                  and exploring emerging technologies, having completed multiple certifications in AI and machine learning. 
+                  With expertise in Python, TensorFlow, PyTorch, and modern web technologies like React and Node.js,
+                  I bridge the gap between complex AI algorithms and user-friendly applications. I'm constantly learning
+                  and exploring emerging technologies, having completed multiple certifications in AI and machine learning.
                   My goal is to contribute to innovative projects that make technology more accessible and impactful for everyone.
                 </p>
               </CardContent>
             </Card>
-            
+
             {/* Education */}
             <Card className="bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-primary mb-2">Education</h3>
                 <p className="text-lg font-medium">Bachelor of Computer Engineering</p>
-                <p className="text-muted-foreground">CGPA: 9.3/10.0</p>
+                <p className="text-muted-foreground">CPI: 9.3/10.0</p>
                 <p className="text-sm text-muted-foreground mt-1">2020 - 2024</p>
               </CardContent>
             </Card>
           </div>
-          
+
           {/* Internships */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-center text-gradient-neural mb-8">
               Professional Experience
             </h3>
-            
+
             {internships.map((internship, index) => (
               <Card key={index} className="bg-card/50 backdrop-blur-sm border-border/50 hover:glow-accent transition-all duration-300">
                 <CardContent className="p-6">
@@ -89,9 +89,9 @@ export function About() {
           </div>
         </div>
       </div>
-      
+
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 pointer-events-none"
         style={{ backgroundImage: 'url(/lovable-uploads/f2fdeab5-3114-4ff1-97b7-4b7856e79e13.png)' }}
       />

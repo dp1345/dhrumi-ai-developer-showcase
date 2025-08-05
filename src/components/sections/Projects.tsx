@@ -9,7 +9,7 @@ export function Projects() {
       title: "AI-Powered Chatbot",
       description: "Intelligent conversational AI using natural language processing and machine learning to provide personalized responses and learning capabilities.",
       technologies: ["Python", "TensorFlow", "Flask", "NLP", "React"],
-      github: "https://github.com/ruhi/ai-chatbot",
+      github: "https://github.com/dp1345/ai-chatbot",
       demo: "https://ai-chatbot-demo.com",
       category: "AI/ML"
     },
@@ -17,7 +17,7 @@ export function Projects() {
       title: "Real-time Analytics Dashboard",
       description: "Full-stack web application with real-time data visualization, user authentication, and RESTful API integration for business intelligence.",
       technologies: ["React", "Node.js", "MongoDB", "Express.js", "Socket.io"],
-      github: "https://github.com/ruhi/analytics-dashboard",
+      github: "https://github.com/dp1345/analytics-dashboard",
       demo: "https://analytics-demo.com",
       category: "Web Development"
     },
@@ -25,7 +25,7 @@ export function Projects() {
       title: "Computer Vision Image Classifier",
       description: "Deep learning model for multi-class image classification with 95% accuracy, deployed using Docker and cloud services.",
       technologies: ["Python", "PyTorch", "OpenCV", "Docker", "AWS"],
-      github: "https://github.com/ruhi/image-classifier",
+      github: "https://github.com/dp1345/image-classifier",
       demo: "https://classifier-demo.com",
       category: "AI/ML"
     },
@@ -33,7 +33,7 @@ export function Projects() {
       title: "E-commerce Platform",
       description: "Full-featured online shopping platform with payment integration, inventory management, and responsive design.",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe API", "TypeScript"],
-      github: "https://github.com/ruhi/ecommerce-platform",
+      github: "https://github.com/dp1345/ecommerce-platform",
       demo: "https://ecommerce-demo.com",
       category: "Web Development"
     },
@@ -41,7 +41,7 @@ export function Projects() {
       title: "Sentiment Analysis API",
       description: "RESTful API for real-time sentiment analysis of text data using transformer models and natural language processing.",
       technologies: ["Python", "FastAPI", "Transformers", "BERT", "Docker"],
-      github: "https://github.com/ruhi/sentiment-api",
+      github: "https://github.com/dp1345/sentiment-api",
       demo: "https://sentiment-api-docs.com",
       category: "AI/ML"
     },
@@ -49,7 +49,7 @@ export function Projects() {
       title: "Task Management App",
       description: "Collaborative task management application with real-time updates, team collaboration features, and mobile-responsive design.",
       technologies: ["React", "Firebase", "Tailwind CSS", "PWA"],
-      github: "https://github.com/ruhi/task-manager",
+      github: "https://github.com/dp1345/task-manager",
       demo: "https://taskmanager-demo.com",
       category: "Web Development"
     }

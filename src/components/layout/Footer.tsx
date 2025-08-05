@@ -9,9 +9,9 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-gradient-primary">RUHI</h3>
+            <h3 className="text-2xl font-bold text-gradient-primary">dhrumi</h3>
             <p className="text-muted-foreground leading-relaxed">
-              AI Engineer & Web Developer passionate about creating intelligent solutions 
+              AI Engineer & Web Developer passionate about creating intelligent solutions
               and beautiful user experiences.
             </p>
           </div>
@@ -36,32 +36,32 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Connect</h4>
             <div className="space-y-3">
-              <a 
-                href="mailto:ruhi@example.com"
+              <a
+                href="mailto:dhrumi858@example.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                ruhi@example.com
+                dhrumi858@example.com
               </a>
-              <a 
-                href="tel:+911234567890"
+              <a
+                href="tel:+91 7016118861"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +91 12345 67890
+                +91 7016118861
               </a>
               <div className="flex items-center gap-4 pt-2">
-                <a 
-                  href="https://github.com/ruhi" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/dp1345"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-card border border-border hover:border-primary transition-colors"
                 >
                   <Github className="w-5 h-5" />
                 </a>
-                <a 
-                  href="https://linkedin.com/in/ruhi" 
-                  target="_blank" 
+                <a
+                  href="https://www.linkedin.com/in/dhrumi-p-574846279/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg bg-card border border-border hover:border-primary transition-colors"
                 >
@@ -74,7 +74,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Ruhi. Made with <Heart className="w-4 h-4 text-red-500" /> using React & AI
+            © {currentYear} Dhrumi. Made with <Heart className="w-4 h-4 text-red-500" /> using React & AI
           </p>
         </div>
       </div>

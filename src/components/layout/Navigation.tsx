@@ -43,7 +43,7 @@ export function Navigation() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-2xl font-bold text-gradient-primary hover:scale-105 transition-transform"
           >
-            RUHI
+            DHRUMI
           </button>
 
           {/* Desktop Navigation */}

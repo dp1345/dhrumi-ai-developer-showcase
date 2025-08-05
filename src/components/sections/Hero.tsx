@@ -19,7 +19,7 @@ export function Hero() {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6 animate-fade-in">
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 text-gradient-primary">
-            RUHI
+            DHRUMI PATEL
           </h1>
           <div className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in-up">
             <span className="text-gradient-neural">AI Engineer</span> & 
@@ -51,19 +51,19 @@ export function Hero() {
         
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6">
-          <a href="https://github.com/ruhi" target="_blank" rel="noopener noreferrer" 
+          <a href="https://github.com/dp1345" target="_blank" rel="noopener noreferrer" 
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com/in/ruhi" target="_blank" rel="noopener noreferrer"
+          <a href="https://linkedin.com/in/dhrumi-p-574846279" target="_blank" rel="noopener noreferrer"
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="mailto:ruhi@example.com"
+          <a href="mailto:dhrumi858@example.com"
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Mail className="w-6 h-6" />
           </a>
-          <a href="tel:+1234567890"
+          <a href="tel:+7016118861"
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Phone className="w-6 h-6" />
           </a>
