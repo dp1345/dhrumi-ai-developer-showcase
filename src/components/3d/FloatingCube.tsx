@@ -17,11 +17,13 @@ export function FloatingCube({ position }: { position: [number, number, number] 
     <mesh ref={meshRef} position={position}>
       <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial 
-        color="#8B5CF6" 
+        color="#51e2f5" 
         transparent 
-        opacity={0.7} 
-        emissive="#4C1D95"
-        emissiveIntensity={0.2}
+        opacity={0.8}
+        emissive="#9df9ef"
+        emissiveIntensity={0.1}
+        metalness={0.3}
+        roughness={0.4}
       />
     </mesh>
   );
