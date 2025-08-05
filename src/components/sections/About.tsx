@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import aboutBg from "@/assets/about-bg.jpg";
 
 export function About() {
   const internships = [
@@ -93,8 +92,8 @@ export function About() {
       
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5 pointer-events-none"
-        style={{ backgroundImage: `url(${aboutBg})` }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 pointer-events-none"
+        style={{ backgroundImage: 'url(/lovable-uploads/f2fdeab5-3114-4ff1-97b7-4b7856e79e13.png)' }}
       />
     </section>
   );
