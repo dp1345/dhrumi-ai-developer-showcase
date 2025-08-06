@@ -74,7 +74,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Dhrumi. Made with <Heart className="w-4 h-4 text-red-500" /> using React & AI
+            © {currentYear} Dhrumi. Made with using React & AI
           </p>
         </div>
       </div>

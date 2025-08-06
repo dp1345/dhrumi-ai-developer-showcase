@@ -56,7 +56,7 @@ export function About() {
                 <h3 className="text-xl font-semibold text-primary mb-2">Education</h3>
                 <p className="text-lg font-medium">Bachelor of Computer Engineering</p>
                 <p className="text-muted-foreground">CPI: 9.3/10.0</p>
-                <p className="text-sm text-muted-foreground mt-1">2020 - 2024</p>
+                <p className="text-sm text-muted-foreground mt-1">2021 - 2025</p>
               </CardContent>
             </Card>
           </div>

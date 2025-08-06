@@ -6,11 +6,11 @@ import { Github, ExternalLink } from "lucide-react";
 export function Projects() {
   const projects = [
     {
-      title: "AI-Powered Chatbot",
+      title: "Deepfake face detection in video",
       description: "Intelligent conversational AI using natural language processing and machine learning to provide personalized responses and learning capabilities.",
-      technologies: ["Python", "TensorFlow", "Flask", "NLP", "React"],
-      github: "https://github.com/dp1345/ai-chatbot",
-      demo: "https://ai-chatbot-demo.com",
+      technologies: ["Python", "Pytorch", "OpenCV", "Flask", "Kaggle", "React"],
+      github: "https://github.com/dp1345/AI_DD",
+      demo: "https://deepfake-face-detection-in-video.vercel.app/",
       category: "AI/ML"
     },
     {
