@@ -4,18 +4,18 @@ import { Badge } from "@/components/ui/badge";
 export function About() {
   const internships = [
     {
-      title: "AI Research Intern",
-      company: "TechCorp Solutions",
-      duration: "Jun 2023 - Aug 2023",
-      description: "Developed machine learning models for natural language processing, achieving 92% accuracy in sentiment analysis.",
-      technologies: ["Python", "TensorFlow", "NLP", "Data Analysis"]
+      title: "AI Transformative Learning with Techsaksm",
+      company: "Edunet Foundation",
+      duration: "Nov 2024 - Dec 2024",
+      description: "Developed chatbot using NLP, various learning about AI and ML.",
+      technologies: ["Python", "NLP"]
     },
     {
-      title: "Full Stack Development Intern",
-      company: "InnovateLabs",
-      duration: "Jan 2023 - May 2023",
-      description: "Built responsive web applications using MERN stack, optimized database queries, and improved load times by 40%.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js"]
+      title: "MERN Stack Intern",
+      company: "Notion Infosoft",
+      duration: "June 2024 - August 2024",
+      description: "Completed a 2-month internship working on UI and API testing, building RESTful APIs, implementing authentication and validation usig JWT token, and connecting frontend (React) with backend (Node.js, Express.js, MongoDB) various operations done.",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js","Postman"]
     }
   ];
 
