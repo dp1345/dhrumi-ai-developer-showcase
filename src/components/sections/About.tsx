@@ -15,7 +15,7 @@ export function About() {
       company: "Notion Infosoft",
       duration: "June 2024 - August 2024",
       description: "Completed a 2-month internship working on UI and API testing, building RESTful APIs, implementing authentication and validation usig JWT token, and connecting frontend (React) with backend (Node.js, Express.js, MongoDB) various operations done.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js","Postman"]
+      technologies: ["React", "Node.js", "MongoDB", "Express.js", "Postman"]
     }
   ];
 

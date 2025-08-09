@@ -14,28 +14,26 @@ export function Projects() {
       category: "AI/ML"
     },
     {
-      title: "Real-time Analytics Dashboard",
-      description: "Full-stack web application with real-time data visualization, user authentication, and RESTful API integration for business intelligence.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js", "Socket.io"],
+      title: "Genreal AI Agent",
+      description: "Built a versatile AI agent with Python, Gradio, LangGraph, LangChain, and Docker. Delivers smart, conversational, and tool-powered assistance through an interactive web UI. Modular, scalable, and ready for real-world tasks—bringing advanced AI capabilities from concept to deployment with speed and style.GAIA(General AI Agent Assistance) research paper based by Meta",
+      technologies: ["Python", "Gradio", "LangGraph", "LangChain", "Docker"],
       github: "https://github.com/dp1345/analytics-dashboard",
       demo: "https://analytics-demo.com",
-      category: "Web Development"
+      category: "Agentic AI"
     },
     {
-      title: "Computer Vision Image Classifier",
-      description: "Deep learning model for multi-class image classification with 95% accuracy, deployed using Docker and cloud services.",
-      technologies: ["Python", "PyTorch", "OpenCV", "Docker", "AWS"],
-      github: "https://github.com/dp1345/image-classifier",
-      demo: "https://classifier-demo.com",
-      category: "AI/ML"
+      title: "Google Form Automation with Gemini API",
+      description: "Automated Google Form response system using Google Apps Script and Gemini API. Upon submission, the system processes the question field and instantly returns an AI-generated answer.",
+      technologies: ["Google Forms", "Google Apps Script", "Gemini API"],
+      demo: "https://forms.gle/61xv8d1P4YY3NmXm9",
+      category: "Automation/AI"
     },
     {
-      title: "E-commerce Platform",
-      description: "Full-featured online shopping platform with payment integration, inventory management, and responsive design.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe API", "TypeScript"],
-      github: "https://github.com/dp1345/ecommerce-platform",
-      demo: "https://ecommerce-demo.com",
-      category: "Web Development"
+      title: "n8n AI-Powered Automation Workflow",
+      description: "Automated pipeline built in n8n that captures data via a webhook, processes it with the Gemini API, stores results in Airtable, and sends instant email notifications via Gmail. Enables seamless AI-powered data handling and communication.",
+      technologies: ["n8n", "Webhook", "Gemini API", "Airtable", "Gmail API"],
+      demo: "https://tally.so/r/nW7j2P",
+      category: "Automation/AI"
     },
     {
       title: "Sentiment Analysis API",
@@ -67,7 +65,7 @@ export function Projects() {
           </p>
           <div className="w-24 h-1 gradient-neural mx-auto rounded-full mt-6" />
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="bg-card/50 backdrop-blur-sm border-border/50 hover:glow-accent transition-all duration-300 group">
@@ -85,7 +83,7 @@ export function Projects() {
                 <p className="text-muted-foreground leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-1">
                   {project.technologies.map((tech, techIndex) => (
                     <Badge key={techIndex} variant="secondary" className="text-xs">
@@ -93,7 +91,7 @@ export function Projects() {
                     </Badge>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3 pt-4">
                   <Button size="sm" variant="outline" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">

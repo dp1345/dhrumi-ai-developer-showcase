@@ -56,7 +56,7 @@ export function Skills() {
           </p>
           <div className="w-24 h-1 gradient-neural mx-auto rounded-full mt-6" />
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <Card key={index} className="bg-card/50 backdrop-blur-sm border-border/50 hover:glow-primary transition-all duration-300">
