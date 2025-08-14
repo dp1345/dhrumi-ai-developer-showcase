@@ -35,22 +35,7 @@ export function Projects() {
       demo: "https://tally.so/r/nW7j2P",
       category: "Automation/AI"
     },
-    {
-      title: "Sentiment Analysis API",
-      description: "RESTful API for real-time sentiment analysis of text data using transformer models and natural language processing.",
-      technologies: ["Python", "FastAPI", "Transformers", "BERT", "Docker"],
-      github: "https://github.com/dp1345/sentiment-api",
-      demo: "https://sentiment-api-docs.com",
-      category: "AI/ML"
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, team collaboration features, and mobile-responsive design.",
-      technologies: ["React", "Firebase", "Tailwind CSS", "PWA"],
-      github: "https://github.com/dp1345/task-manager",
-      demo: "https://taskmanager-demo.com",
-      category: "Web Development"
-    }
+
   ];
 
   return (
