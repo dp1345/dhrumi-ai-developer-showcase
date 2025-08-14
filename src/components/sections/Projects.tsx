@@ -7,7 +7,7 @@ export function Projects() {
   const projects = [
     {
       title: "Deepfake face detection in video",
-      description: "Intelligent conversational AI using natural language processing and machine learning to provide personalized responses and learning capabilities.",
+      description: "Designed and deployed a CNN-based deepfake detection system utilizing three pre- trained models for improved accuracy.Implemented React.js for the frontend interface and Python for backend processing.Utilized the CelebV2 dataset from Kaggle to train and evaluate models, achieving over 99 % detection accuracy.Integrated real - time inference capabilities within a MERN - based web application.Tested using cypress testing at f rontend and at backend for python used pytest.",
       technologies: ["Python", "Pytorch", "OpenCV", "Flask", "Kaggle", "React"],
       github: "https://github.com/dp1345/AI_DD",
       demo: "https://deepfake-face-detection-in-video.vercel.app/",
