@@ -44,7 +44,7 @@ export function TechIcon({ name, className }: TechIconProps) {
       "flex items-center justify-center w-12 h-12 rounded-lg bg-card border border-border text-2xl hover:scale-110 transition-transform duration-300 glow-primary",
       className
     )}>
-      {["python","css","express","html","javascript","nodejs","pytorch","tensorflow","typescript","postman","github"].includes(key) ? (
+      {["python", "css", "express", "html", "javascript", "nodejs", "pytorch", "tensorflow", "typescript", "postman", "github"].includes(key) ? (
         <img src={icon} alt={name} className="w-8 h-8" />
       ) : (
         icon
