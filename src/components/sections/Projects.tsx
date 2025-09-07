@@ -15,10 +15,10 @@ export function Projects() {
     },
     {
       title: "Genreal AI Agent",
-      description: "Built a versatile AI agent with Python, Gradio, LangGraph, LangChain, and Docker. Delivers smart, conversational, and tool-powered assistance through an interactive web UI. Modular, scalable, and ready for real-world tasks—bringing advanced AI capabilities from concept to deployment with speed and style.GAIA(General AI Agent Assistance) research paper based by Meta",
+      description: "Built a versatile AI agent. Delivers smart, conversational, and tool-powered assistance through an interactive web UI. Modular, scalable, and ready for real-world tasks—bringing advanced AI capabilities from concept to deployment with speed and style.GAIA(General AI Agent Assistance) research paper based by Meta",
       technologies: ["Python", "Gradio", "LangGraph", "LangChain", "Docker"],
-      github: "https://github.com/dp1345/analytics-dashboard",
-      demo: "https://analytics-demo.com",
+      github: "https://huggingface.co/spaces/dp1345/basic_agent/tree/main",
+      demo: "https://huggingface.co/spaces/dp1345/basic_agent/tree/main",
       category: "Agentic AI"
     },
     {
