@@ -37,11 +37,11 @@ export function Footer() {
             <h4 className="text-lg font-semibold text-foreground">Connect</h4>
             <div className="space-y-3">
               <a
-                href="mailto:dhrumi858@example.com"
+                href="mailto:dhrumi858@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                dhrumi858@example.com
+                dhrumi858@gmail.com
               </a>
               <a
                 href="tel:+91 7016118861"

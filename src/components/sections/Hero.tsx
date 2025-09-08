@@ -59,7 +59,7 @@ export function Hero() {
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="mailto:dhrumi858@example.com"
+          <a href="mailto:dhrumi858@gmail.com"
              className="p-3 rounded-full bg-card border border-border hover:border-primary transition-colors glow-accent">
             <Mail className="w-6 h-6" />
           </a>

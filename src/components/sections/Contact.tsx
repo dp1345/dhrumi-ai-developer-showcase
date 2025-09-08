@@ -7,8 +7,8 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "dhrumi858@example.com",
-      href: "mailto:dhrumi858@example.com"
+      value: "dhrumi858@gmail.com",
+      href: "mailto:dhrumi858@gmail.com"
     },
     {
       icon: Phone,
@@ -99,7 +99,7 @@ export function Contact() {
                       className="w-full gradient-primary hover:scale-105 transition-transform glow-primary"
                       asChild
                     >
-                      <a href="mailto:@example.com">
+                      <a href="mailto:@gmail.com">
                         <Mail className="w-5 h-5 mr-2" />
                         Send Message
                       </a>
