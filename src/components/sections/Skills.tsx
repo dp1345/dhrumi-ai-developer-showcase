@@ -8,7 +8,6 @@ export function Skills() {
       skills: [
         { name: "Python", icon: "python" },
         { name: "JavaScript", icon: "javascript" },
-        { name: "TypeScript", icon: "typescript" },
         { name: "HTML", icon: "html" },
         { name: "CSS", icon: "css" }
       ]

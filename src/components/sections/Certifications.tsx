@@ -33,6 +33,24 @@ export function Certifications() {
       issuer: "Infosys Springboard",
       date: "Dec, 2023",
       type: "Programming"
+    },
+    {
+      title: "Fundamentals of LLMs",
+      issuer: "Hugging Face",
+      date: "Aug, 2025",
+      type: "LLM"
+    },
+    {
+      title: "Fundamentals of MCP",
+      issuer: "Hugging Face",
+      date: "Aug, 2025",
+      type: "MCP"
+    },
+    {
+      title: "Hugging Face Agentic AI Course",
+      issuer: "Hugging Face",
+      date: "Sep, 2025",
+      type: "Agentic AI"
     }
   ];
 
